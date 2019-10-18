@@ -1,5 +1,3 @@
 <?php
-    echo"test";
+    echo"testa";
     ?>
-# senatorov
-32432
