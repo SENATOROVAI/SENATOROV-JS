@@ -3,6 +3,7 @@ var drawcats = function (howManyTimes) {
         console.log(i + "  =^.^=");
     }
 };
-drawcats(10);
+drawcats(20);
+
 
 
