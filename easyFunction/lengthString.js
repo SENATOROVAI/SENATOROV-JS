@@ -1,2 +1,2 @@
-"Супердлиннаястрока".length;
-
+var java = "Java";
+java.length;
