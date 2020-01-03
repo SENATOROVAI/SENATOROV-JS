@@ -1,8 +1,4 @@
 var first = "эЙ, кАК деЛа?";
-var lower = first.toLowerCase();
-var firsChar = lower[0];
-var upperCase = firsChar.toUpperCase();
-var slice = lower.slice(1);
-upperCase+slice;
+first[0].toUpperCase() + first.slice(1).toLowerCase();
 
 
