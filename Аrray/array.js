@@ -1,2 +1,3 @@
-var newArray = ["Rex", "Putinozavr", "Dot"];
-newArray[newArray.length - 2];
+var Ruslan = [];
+Ruslan.push("Ludmila");
+Ruslan.length;
