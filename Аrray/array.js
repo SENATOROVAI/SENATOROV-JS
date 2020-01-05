@@ -3,3 +3,5 @@ var dinosaurs = [
     "Veloceraptor",
     "Stegozavr"
 ];
+dinosaurs[1];
+
