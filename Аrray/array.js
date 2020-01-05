@@ -1,3 +1,7 @@
-var Ruslan = [];
-Ruslan.push("Ludmila");
-Ruslan.length;
+var ludmila = [];
+ludmila.push("Ruslan");
+ludmila.push("Rus");
+var posledniy = ludmila.pop();
+
+ludmila.shift();
+
