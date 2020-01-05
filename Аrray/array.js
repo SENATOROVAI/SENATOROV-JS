@@ -1,9 +1,2 @@
-var dinosaurs = [
-    "Tiranozavr", 
-    "Veloceraptor",
-    "Stegozavr"
-];
-dinosaurs[3]="Rex";
-dinosaurs;
-
-
+var dino = [3, "Rex", ["tric",3.14],10];
+dino[2][1];
