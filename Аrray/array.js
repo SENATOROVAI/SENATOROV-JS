@@ -1,2 +1,2 @@
 var newArray = ["Rex", "Putinozavr", "Dot"];
-newArray.length;
+newArray[newArray.length - 2];
