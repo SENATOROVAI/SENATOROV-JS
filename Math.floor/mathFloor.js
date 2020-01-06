@@ -1,2 +1,1 @@
-Math.floor(3.14);
-
+Math.floor(Math.random()*5);
