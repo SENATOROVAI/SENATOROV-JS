@@ -8,7 +8,11 @@ var randomeAdjective = randomeAdjectives[Math.floor(Math.random() * randomeAdjec
 //Выбор слова randomeWords
 var randomeWord = randomeWords[Math.floor(Math.random() * randomeWords.length)];
 //Соединяем случайные строчки в предложение 
-var randomInsult = "У тебя " + randomeBodyPart + " словно " + randomeAdjective + " " + randomeWord + "!!!";
+
+var randomInsult = ["У тебя", randomeBodyPart, "словно", 
+randomeAdjectives, randomeWord + "!!!"].join(" ");
+
 randomInsult;
+
 /*randomWords.length как множителя означает,
 что нам не понадобится менять этот код, если длина массива изменится.*/
