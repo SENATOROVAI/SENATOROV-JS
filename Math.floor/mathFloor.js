@@ -1,3 +1,3 @@
-Math.floor(Math.random()*5);
-//Генератор случайных чисел с округлением до целого числа
+var rusSen = ["Boom", "Red", "Love"];
+rusSen[Math.floor(Math.random() * 5)];
 
