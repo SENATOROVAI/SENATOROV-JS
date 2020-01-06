@@ -1,2 +1,2 @@
-var colors = ["red", "greed", "blue"];
-colors.indexOf("purpurnyi");
+var insects = ["red", "green", "black", "red"];
+insects.indexOf("red");
