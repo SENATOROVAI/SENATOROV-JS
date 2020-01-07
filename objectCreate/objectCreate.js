@@ -3,6 +3,7 @@ var cat = {
     name: "Gramon",
     color: "cherepah"
 };
-cat.name;
+Object.keys(cat);
+
 
 
