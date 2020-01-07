@@ -1,6 +1,8 @@
 var cat = {
-    "legs": 3,
-    "name": "Gramon",
-    "color": "cherepah"
+    legs: 3,
+    name: "Gramon",
+    color: "cherepah"
 };
-cat;
+cat.name;
+
+
