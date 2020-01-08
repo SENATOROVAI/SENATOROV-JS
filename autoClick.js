@@ -4,7 +4,6 @@ var event = new Event('click', [true, false]);
 btn1.dispatchEvent(event);
 function click2() {
 var btn2 = document.querySelector("body > div.bloko-modal-container.bloko-modal-container_visible > div.bloko-modal > div > form > div.bloko-modal-footer > div > button > span.bloko-button__content");
-
 var event2 = new Event('click', [true, false]);
 
 btn2.dispatchEvent(event2);
