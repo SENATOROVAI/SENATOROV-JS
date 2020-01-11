@@ -1,5 +1,6 @@
-var i = false;
-while (i) {
-    alert(name);
-    i++;
+var sheepCounted = 0;
+while (sheepCounted <=10) {
+    alert("Sheep counted:" + sheepCounted + "!");
+    sheepCounted++;
 }
+alert("slip");
