@@ -1,4 +1,3 @@
-var array = "Ruslan";
-for (var i = 0; i < name.length; i++) {
-    alert("I have a letter in my name " + name[i]);
+for (var x = 2; x < 10000; x*=2) {
+    alert(x);
 }
