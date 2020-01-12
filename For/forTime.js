@@ -1,4 +1,4 @@
-var animals = ["lion", "pig", "cat"];
-for (var i = 0; i < animals.length; i++) {
-    alert("in the zoo there - " + animals[i])
+var array = "Ruslan";
+for (var i = 0; i < name.length; i++) {
+    alert("I have a letter in my name " + name[i]);
 }
