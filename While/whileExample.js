@@ -5,3 +5,4 @@ while (counter < 10000) {
   counter++;
 }
 console.log(counter);
+
