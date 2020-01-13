@@ -1,8 +1,9 @@
-var result = 3;
-var counter = 0;
-while (counter < 10000) {
-  result = result * 3;
-  counter++;
+var num = 3;
+var exp = 10;
+var result = 1;
+var count = 1;
+while (count <= exp){
+    result = result *num;
+    console.log(result);
+    count++;
 }
-console.log(counter);
-
