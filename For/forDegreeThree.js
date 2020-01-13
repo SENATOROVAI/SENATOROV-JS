@@ -1,0 +1,3 @@
+for (x = 3; x < 10000; x = x * 3){
+    console.log(x);
+};
