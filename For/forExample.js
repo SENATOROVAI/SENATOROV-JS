@@ -1,5 +1,7 @@
-var array = ["cat", "fish", "lion"];
-array[0] = array[0] + "- red";
-array[1]+="- blue";
-array[2]+="-Yellow";
-array;
+var alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+var randomString = "";
+while (randomString.length < 6 ){
+    randomString+=alphabet[Math.floor(Math.random() * alphabet.length)];
+    console.log(randomString);
+};
+
