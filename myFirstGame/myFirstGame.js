@@ -39,3 +39,4 @@ if (guess === null) {
             alert(answerArray.join(" "));
             //поздравляем игрока
             alert("Coll guys " + word);
+            
