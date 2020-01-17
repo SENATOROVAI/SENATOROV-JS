@@ -3,5 +3,4 @@ let drawCats = function (howManyTimes) {
         alert(i + ".i.");
     }
 };
-
 drawCats(5);
