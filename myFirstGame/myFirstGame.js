@@ -1,41 +1,33 @@
-//создаём массив со словами
-let words = [
-    "toque",
-    "lion",
-    "cat",
-    "fish"
+var words = [
+    "программа",
+    "макака",
+    "прекрасный",
+    "оладушек"
 ];
-// выбираем случайное слово
-let word = words[Math.floor(Math.random() * words.length)];
-// создаём итоговый массив
-let answerArray = [];
-for (let i = 0; i < word.length; i++){
+var word = words[Math.floor(Math.random() * words.length)];
+
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
     answerArray[i] = "_";
 }
-let remaingLetters = word.length;
-// игровой цикл
-while (remaingLetters > 0) {
-    // показываем состояние игры
+
+var remainingLetters = word.length;
+while (remainingLetters > 0) {
     alert(answerArray.join(" "));
-// запрашиваем вариант ответа
-let guess = prompt("Угадайте букву");
-if (guess === null) {
-    //выходи из игрового цикла
- break;
-} else if (guess.length !==1) {
-    alert("Пожалуйста, введите только одну букву.");
-} else {
-    // обновляем состояние игры
-    for (let j = 0; j < word.length; j++) {
+    var guess = prompt("Угадайте букву");
+    if (guess === null) {
+        break;
+    } else if (guess.length !==1) {
+        alert("Пожалуйста, введите только одну букву");
+    } else {
+    for (var j = 0; j < word.length; j++) {
         if (word[j] === guess) {
             answerArray[j] = guess;
-            remaingLetters--;
-        }
+            remainingLetters--;
         }
     }
-
+    }
 }
-            // конец игрового цикла
-            alert(answerArray.join(" "));
-            //поздравляем игрока
-            alert("Coll guys " + word);
+alert(answerArray.join(" "));
+alert("Отлично! Было загадано слово " + word);
+
