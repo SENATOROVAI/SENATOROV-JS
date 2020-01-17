@@ -1,4 +1,4 @@
-var hiWordl = function () {
-    alert("HI,WORLD");
+var sayHelloTo = function (name) {
+    alert("hi," + name + "!");
 };
-hiWordl();
+sayHelloTo(Ruslan);
