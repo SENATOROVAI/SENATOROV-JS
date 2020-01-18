@@ -4,4 +4,4 @@ let pickRandomWord = function (words) {
 
 let randomWords = ["Планета", "Червяк", "Цветок", "Компьютер"];
 
-pickRandomWord(randomWords);
+pickRandomWord(["Чарли", "Радж", "Николь", "Кейт", "Сэнди"]);
