@@ -1,9 +1,15 @@
-let randomBodyParts = ["глаз", "нос", "череп"];
-let randomAdjectives = ["вонючая", "унылая", "дурацкая"];
-let randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
-// Выбор случайной части тела из массива randomBodyParts:
-let pickRandomWord = function (words) {
-    return words[Math.floor(Math.random() * words.length)];
-};
-let randomString = "У тебя " + pickRandomWord(randomBodyParts) + " SLOVNO " + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!";
-randomString;
+var generateRandomInsult = function () {
+    var randomBodyParts = ["глаз", "нос", "череп"];
+    var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+    var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+    
+    var pickRandomWord = function (words) {
+        return words[Math.floor(Math.random() * words.length)];
+        };
+        
+    var randomString = "У тебя " + pickRandomWord(randomBodyParts) + 
+    " словно " + pickRandomWord(randomAdjectives) + 
+    " " + pickRandomWord(randomWords) + "!!!";
+     return randomString;
+    };
+    generateRandomInsult();
