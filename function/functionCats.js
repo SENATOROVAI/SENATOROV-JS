@@ -4,3 +4,4 @@ let drawCats = function (howManyTimes) {
     }
 };
 drawCats(5);
+
