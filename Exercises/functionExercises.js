@@ -1,15 +1,15 @@
 function areArraysSame(a,b){
-    for(var i = 0; i < a.length;i++){
+    for(let i = 0; i < a.length;i++){
       if(a.length != b.length){
-         console.log('Массивы разной длины');
+         alert('Массивы разной длины');
          break;
        }
        if(a[i] != b[i]){
-          console.log('Массивы не совпадают');
+          alert('Массивы не совпадают');
           return;
        }
        if(a[i] === b[i]){
-          console.log('Массивы совпадают');
+          alert('Массивы совпадают');
        }
     }
   }
