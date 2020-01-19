@@ -1,4 +1,4 @@
-var sayHelloTo = function (name) {
-    alert("hi," + name + "!");
-};
-sayHelloTo(Ruslan);
+var timeUp = function () {
+    alert("Время вышло!");
+    };
+setTimeout(timeUp, 3000);
