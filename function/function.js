@@ -1,5 +1,6 @@
-var timeUp = function () {
-    alert("Время вышло!");
-    };
-setTimeout(timeUp, 3000);
-
+let fifthLetter = function (name) {
+    if (name.length < 5) {
+        return;
+    }
+    return name[4];
+};
