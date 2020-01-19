@@ -1,3 +1,3 @@
-let double = function (num) {
+function double(num) {
     return num * 2;
-};
+}
