@@ -11,8 +11,10 @@
     <h1 id="main">HI</h1>
 
     <script>
+    for (let i = 0; i < 3; i++) {
     let newHead = prompt("write");
-    $("#main").text(newHead);
+    $("#main").append("<br>" + newHead);
+    }
     </script>
 </body>
 </html>
