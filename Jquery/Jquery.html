@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <h1 id="main">HI</h1>
 
     <script>
-    let headJs = document.getElementById("main");
-    alert = (headJs.innerHTML);
-    let newJs = prompt("write text");
-    headJs.innerHTML = newJs;
+    let newHead = prompt("write");
+    $("#main").text(newHead);
     </script>
 </body>
 </html>
