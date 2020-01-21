@@ -15,10 +15,20 @@
     
 
     <script>
+        //DONATY
         for (let i = 0; i < 50; i++) {
             $("#main").fadeOut(500).fadeIn(1500);
             $("#maine").slideDown(1500).slideUp(500);
         }
+        let leftOffset = 0;
+        function moveHeading () {
+            $("#main").offset({ left: leftOffset});
+            leftOffset++;
+            if (leftOffset > 200) {
+                leftOffset = 0;
+            }
+        };
+        setInterval(moveHeading, 3);
     </script>
 </body>
 </html>
