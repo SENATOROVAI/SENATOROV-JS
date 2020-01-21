@@ -1,6 +1,6 @@
 function timeUp () {
     alert("TIME ALL");
 }
-setTimeout(timeUp, 3000);
+let time = setTimeout(timeUp, 3000);
 
-
+clearTimeout(time);
