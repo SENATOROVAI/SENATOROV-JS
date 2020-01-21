@@ -1,7 +1,7 @@
-let counter = 1;
+let counter = 60;
 function printMessage() {
-    console.log("Сколько лямов я заработал" + counter + " сек");
-    counter++;
+    alert("До выключение компа осталось " + counter + " сек");
+    counter--;
 };
 let repeat = setInterval(printMessage, 1000);
 
