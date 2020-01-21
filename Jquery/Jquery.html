@@ -22,9 +22,9 @@
         }
         let leftOffset = 0;
         function moveHeading () {
-            $("#main").offset({ left: leftOffset});
+            $("#main").offset({ top: leftOffset});
             leftOffset++;
-            if (leftOffset > 200) {
+            if (leftOffset > 1000) {
                 leftOffset = 0;
             }
         };
