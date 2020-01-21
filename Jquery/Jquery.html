@@ -20,6 +20,10 @@
             $("#main").fadeOut(500).fadeIn(1500);
             $("#maine").slideDown(1500).slideUp(500);
         }
+        let clickHandler = function (event) {
+            alert("click" + event.pageX + " " + event.pageY);  
+        };
+            $("#main").click(clickHandler);
         let leftOffset = 0;
         function moveHeading () {
             $("#main").offset({ top: leftOffset});
