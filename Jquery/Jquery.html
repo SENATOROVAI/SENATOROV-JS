@@ -19,20 +19,55 @@
         for (let i = 0; i < 50; i++) {
             $("#main").fadeOut(500).fadeIn(1500);
             $("#maine").slideDown(1500).slideUp(500);
+            
         }
         let clickHandler = function (event) {
             alert("click" + event.pageX + " " + event.pageY);  
         };
             $("#main").click(clickHandler);
-        let leftOffset = 0;
+         /*let leftOffset = 0;
         function moveHeading () {
-            $("#main").offset({ top: leftOffset});
+            $("#maine").offset({ top: leftOffset,
+            left: leftOffset,
+            });
             leftOffset++;
             if (leftOffset > 1000) {
                 leftOffset = 0;
             }
-        };
-        setInterval(moveHeading, 30);
+        };*/
+        
+        setInterval(moveHeading, 30); 
+        $("html").mousemove(function (event) {
+            $("#main").offset({
+                left: event.pageX,
+                top: event.pageY
+            });
+        })
+
+
+
+
+var leftOffset = 0;
+var topOffset = 0;
+ 
+var moveHeading = function () {
+  $("#maine").offset({ 
+    left: leftOffset,
+    top: topOffset
+  });
+  leftOffset++;
+  if (leftOffset > 200) {
+    leftOffset = 200;
+
+    topOffset++;
+    if (topOffset > 200) {
+      topOffset = 200;
+    }
+  } 
+};
+
+
+setInterval(moveHeading, 30)
     </script>
 </body>
 </html>
