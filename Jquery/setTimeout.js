@@ -1,6 +1,7 @@
-function timeUp () {
-    alert("TIME ALL");
-}
-let time = setTimeout(timeUp, 3000);
+let counter = 1;
+function printMessage() {
+    console.log("Сколько лямов я заработал" + counter + " сек");
+    counter++;
+};
+let repeat = setInterval(printMessage, 1000);
 
-clearTimeout(time);
