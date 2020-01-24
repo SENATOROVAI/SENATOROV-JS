@@ -9,7 +9,67 @@
 </head>
 <body>
     <h1 id="heading">Find the treasure!</h1>
-    
+    <img id="map" width=400 height=400 src="https://nostarch.com/images/treasuremap.png">
+    <p id="distance"></p>
+    <script>
+       
+       function getRandomNumber (size) {
+            return Math.floor(Math.random() * size)
+        };
+           function getDistance (event, target) {
+            let diffX = event.offsetX - target.x;
+            let diffY = event.offsetY - target.y;
+            return Math.sqrt((diffX * diffX) + (diffY * diffY)); 
+        };
+        function getDistanceHit (distance) {
+            if (distance < 10) {
+                return "HOT";
+            } else if (distance < 20) {
+                return "+- HOT";   
+            } else if (distance < 40) {
+                return "горячо";
+            } else if (distance < 80) {
+                return "тепло";
+            } else if (distance < 160) {
+                return "холодно";
+            } else if (distance < 320) {
+                return "очень холодно";
+            } else {
+                return "ice";
+            }
+        };
 
-</body>
+        let width = 400;
+        let height = 400;
+        let clicks = 0;
+
+        let target = {
+            x: getRandomNumber(width),
+            y: getRandomNumber(height)
+        };
+
+        $("#map").click(function (event) {   
+        clicks++;
+
+        let distance = getDistance (event, target);
+        let getDistanceHint = getDistanceHint(distance);
+        $("#distance").text(getDistanceHit);
+        if (distance < 8) {
+            alert("YES BABY" + clicks);
+        }
+ }); 
+
+
+
+
+
+
+
+
+    </script>
+    </body>
 </html>
+
+
+
+
