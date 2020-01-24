@@ -8,23 +8,45 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
- <h1 id="heading">lol</h1>
+ <h1>ГДЕ ДОНАТЫ?</h1>
     <script>
-        let direction = "rigth"
-        let Offset = 0;
-
-        $("#heading").offset({ left: offset, top: offset });
+        let offset = 0;
+        let direction = "rigth";
+        $("h1").offset({ left: offset , top: offset});
         function moveHeading () {
-            if (direction === "rigth") {
-                $("heading").offset({left: leftOffset});
-            Offset++;
-            if (offset > 200) {
-                Offset = 0;
-                direction = "down";
-            }
-            } else if ()
-        }
-        setInterval(moveHeading, 30);
+          if (direction === "rigth") {
+              $("h1").offset({ left: offset});
+              offset++;
+              if (offset > 200) {
+                  offset = 0;
+                  direction = "down";
+              }
+          } else if (direction === "down") {
+              $("h1").offset({ top: offset });
+              offset++;
+              if (offset > 200) {
+                  offset = 200;
+                  direction = "left";
+              }
+          } else if (direction === 'left') {
+              $("h1").offset({ left: offset });
+        offset--;
+        if (offset < 0) {
+          offset = 200;
+          direction = 'up';
+              }
+          } else if (direction === "up") {
+              $("h1").offset({ top: offset});
+              offset--;
+              if (offset < 0) {
+                  offset = 0;
+                  direction = "rigth";
+              }
+          }
+        };        
+        
+        setInterval(moveHeading, 3);
+
      /*  function moveHeading () {
             $("h1").offset({
                 left:leftOffset
