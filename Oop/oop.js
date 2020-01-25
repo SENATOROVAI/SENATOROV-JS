@@ -3,4 +3,5 @@ let dog = {
     legs: 4,
     isAwesome:true
 };
-dog.name;
+//add new value
+dog.name = 4;
