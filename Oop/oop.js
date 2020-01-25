@@ -4,7 +4,7 @@ let dog = {
     isAwesome:true
 };
 //add new value
-dog.name = 4;
+//dog.name = 4;
 
 
 dog.bark = function () {
