@@ -10,7 +10,6 @@ var answerArray = [];
 for (var i = 0; i < word.length; i++) {
     answerArray[i] = "_";
 }
-
 var remainingLetters = word.length;
 while (remainingLetters > 0) {
     alert(answerArray.join(" "));
