@@ -28,6 +28,7 @@ while (remainingLetters > 0) {
     }
     }
 }
+
 alert(answerArray.join(" "));
 alert("Отлично! Было загадано слово " + word);
 
