@@ -13,6 +13,25 @@
             this.x = x;
             this.y = y;
         };
-    </script>
+    
+    
+        let drawCar = function (car) {
+            let carHtml = '<img src="http://nostarch.com/images/car.png">';
+            let carElement = $(carHtml);
+
+            carElement.css({
+                position: "absolute",
+                left: car.x,
+                top: car.y
+            });
+            $("body").append(carElement);
+            };
+             
+            let tesla = new Car(10, 20);
+            let nissan = new Car(100, 200);
+            drawCar(tesla);
+        </script>
+        
+    
 </body>
 </html>
