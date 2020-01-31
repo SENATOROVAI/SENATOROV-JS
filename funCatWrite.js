@@ -4,4 +4,3 @@ var drawcats = function (howManyTimes) {
     }
 };
 drawcats(20);
-
