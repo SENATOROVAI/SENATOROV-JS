@@ -165,5 +165,13 @@ p {
 	color: #777777;
 	text-align: center;
 	font-size: 14px;
-	margin-top: 5px;
+    margin-top: 5px;
 }
+
+.services__item1 {
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+
+}
+
