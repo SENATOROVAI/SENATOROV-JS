@@ -134,3 +134,11 @@ h1 {
 .services__item:nth-child(2) {
     margin-left: 60px;
 }
+
+#services {
+    padding-bottom: 120px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+}
