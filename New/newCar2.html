@@ -62,14 +62,14 @@
       });
     };
 
-    var tesla = new Car(20, 20);
+    var tesla = new Car(100, 20);
     var nissan = new Car(100, 200);
     setInterval(() => {
         
-   tesla.moveUp() }, );
+   tesla.moveUp(),nissan.moveUp() }, );
        setInterval(() => {
         
-   tesla.moveDown()}, );
+   tesla.moveDown(),nissan.moveDown()}, );
    setInterval(() => {
        
    tesla.moveRight(),nissan.moveRight()}, 300);
