@@ -26,8 +26,55 @@
       $("body").append(this.carElement);
     };
 
+    Car.prototype.moveRight = function () {
+      this.x += 5;
+        
+      this.carElement.css({
+        left: this.x,
+        top: this.y
+      });
+    };
+
+    Car.prototype.moveLeft = function () {
+      this.x -= 5;
+
+      this.carElement.css({
+        left: this.x,
+        top: this.y
+      });
+    };
+
+    Car.prototype.moveUp = function () {
+      this.y -= 5;
+
+      this.carElement.css({
+        left: this.x,
+        top: this.y
+      });
+    };
+
+    Car.prototype.moveDown = function () {
+      this.y += 5;
+
+      this.carElement.css({
+        left: this.x,
+        top: this.y
+      });
+    };
+
     var tesla = new Car(20, 20);
     var nissan = new Car(100, 200);
+    setInterval(() => {
+        
+   tesla.moveUp() }, );
+       setInterval(() => {
+        
+   tesla.moveDown()}, );
+   setInterval(() => {
+       
+   tesla.moveRight(),nissan.moveRight()}, 300);
+
+
     </script>
 </body>
 </html>
