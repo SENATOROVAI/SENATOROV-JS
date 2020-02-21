@@ -4,13 +4,3 @@ function double(num) {
 
 
 
-
-
-
-
-
-
-
-
-
-
