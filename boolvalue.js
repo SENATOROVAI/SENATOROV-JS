@@ -19,7 +19,7 @@ hadShower && hasBackpack;
 
 
 
-&& hasBackpac
+
 
 
 
