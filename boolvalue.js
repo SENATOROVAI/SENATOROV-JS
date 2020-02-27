@@ -22,5 +22,5 @@ hadShower && hasBackpack;
 
 
 
-&& hasBackpac
+
 
