@@ -7,23 +7,3 @@ hadShower && hasBackpack;
 //false 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
