@@ -5,4 +5,3 @@ animals[2] = animals[2] + "- yellow";
 animals;
 
 
-
