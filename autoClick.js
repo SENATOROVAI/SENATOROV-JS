@@ -10,5 +10,3 @@ console.log('wtf');
 
 setTimeout(click2, 3000);
 
-
-//autoclick
