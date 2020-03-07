@@ -5,8 +5,3 @@ var hasBackpack = false;
 
 hadShower && hasBackpack;
 //false 
-
-
-
-
-
