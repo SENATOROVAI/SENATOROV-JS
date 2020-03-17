@@ -4,4 +4,5 @@ var hasBackpack = false;
 
 
 hadShower && hasBackpack;
-//false 
+//false
+//true
