@@ -11,9 +11,3 @@ hadShower && hasBackpack;
 
 
 
-
-
-
-
-
-
