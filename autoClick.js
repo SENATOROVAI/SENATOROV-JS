@@ -7,8 +7,3 @@ var event2 = new Event('click', [true, false]);
 btn2.dispatchEvent(event2);
 console.log('wtf');
 };
-
-<<<<<<< HEAD
-setTimeout(click2, 3000);
-=======
-setTimeout(click2, 3000);
