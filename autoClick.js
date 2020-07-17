@@ -8,5 +8,3 @@ btn2.dispatchEvent(event2);
 console.log('wtf');
 };
 setTimeout(click2, 3000);
-
-
