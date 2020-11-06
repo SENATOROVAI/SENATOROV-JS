@@ -1,4 +1,4 @@
-вvar btn1 = document.querySelector("body > div.HH-MainContent.HH-Supernova-MainContent > div > div > div.bloko-columns-wrapper > div > div.sticky-container > div > div.vacancy-serp-wrapper.HH-SearchVacancyDropClusters-Serp > div > div:nth-child(3) > div > div > div:nth-child(2) > div.vacancy-serp-item__row.vacancy-serp-item__row_controls > div.HH-VacancyResponseTrigger-Button > span > a");
+var btn1 = document.querySelector("body > div.HH-MainContent.HH-Supernova-MainContent > div > div > div.bloko-columns-wrapper > div > div.sticky-container > div > div.vacancy-serp-wrapper.HH-SearchVacancyDropClusters-Serp > div > div:nth-child(3) > div > div > div:nth-child(2) > div.vacancy-serp-item__row.vacancy-serp-item__row_controls > div.HH-VacancyResponseTrigger-Button > span > a");
 var event = new Event('click', [true, false]);
 btn1.dispatchEvent(event);
 function click2() {
